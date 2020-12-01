@@ -6,7 +6,7 @@ nodejs:
 scripts:
   - npm install
   - npm test
-  - npm build
+  - npm run build
 
 deploy:
   provider: surge
