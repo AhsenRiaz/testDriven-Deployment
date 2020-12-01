@@ -1,9 +1,9 @@
-language: nodejs
+language: node_js
 
-nodejs: 
-  - stable
+node_js: 
+  - "stable"
 
-scripts:
+script:
   - npm install
   - npm test
   - npm run build
